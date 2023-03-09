@@ -1,0 +1,136 @@
+//Conditions 
+
+// IF condition 
+
+
+var age =10
+if(age>=65){
+console.log("You get your income from your pension")
+}else if(age<65&&age>=18){
+console.log("Each month you get a salary")
+}else if(age<18){
+console.log("You get an allowance")
+}else{
+console.log("The value of the age variable is not numerical");
+}
+
+// switch condition 
+
+var day = "Sunday"
+switch(day){
+case "Monday" : 
+	console.log("This is ",day);
+	break; 
+case "Tuesday" : 
+	console.log("This is ",day);
+	break; 
+
+case "Wednesday" : 
+	console.log("This is ",day);
+	break; 
+
+case "Thursday" : 
+	console.log("This is ",day);
+	break; 
+case "Sunday" : 
+	console.log("This is ",day);
+	break; 
+default:
+	console.log("No day");
+}
+
+
+// Loops 
+
+// For loop
+
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log('Counting completed!')
+
+for(var i=1;i<=5;i++){
+    console.log(i);
+}
+console.log('Counting completed!')
+
+console.log(5)
+console.log(4)
+console.log(3)
+console.log(2)
+console.log(1)
+console.log('Countdown finished!')
+for(var i=5;i>=1;i--){
+    console.log(i)
+}
+console.log('Countdown finished!')
+
+//While loop
+
+var i = 1;
+while(i<=5){
+    console.log(i)
+    i++
+}
+console.log('Counting completed!')
+
+
+var i = 5;
+while(i>=1){
+    console.log(i)
+    i--
+}
+console.log('Countdown finished!')
+
+console.log(2018)
+console.log(2019)
+console.log(2020)
+console.log(2021)
+console.log(2022)
+
+var i = 2018;
+while(i <= 2022){
+  console.log(i);
+  i++ ; 
+}
+
+for (var firstNum = 0; firstNum < 2; firstNum++) {
+    for (var secondNum = 0; secondNum < 10; secondNum++) {
+        console.log(firstNum + " times " + secondNum + " equals " + firstNum * secondNum);
+    }
+}
+
+
+for (var i = 100; i > 10; i = i - 10) {
+    for (var j = 10; j > 4; j = j - 5) {
+        console.log(i + " divided by " + j + " equals " + i / j);
+    }
+}
+
+for(var i =1 ;i<=10 ; i++){
+	if(i==1){
+	    console.log("Gold medal");
+	}else if(i==2){
+	    console.log("Silver medal");
+	}else if(i==3){
+	    console.log("Bronze medal");
+	}else{
+	    console.log(i);
+	}
+}
+
+for(var i =1 ;i<=10 ; i++){
+    var style = "font:bold; color:green;"
+	switch(i){
+		case 1 : console.log("%c Gold medal",style);
+			break;
+		case 2 : console.log("Silver medal");
+			break;
+		case 3 : console.log("Bronze medal");
+			break;
+		default : console.log(i);
+	}
+}
+
